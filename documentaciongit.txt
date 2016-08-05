@@ -8,6 +8,18 @@ git ls-files --others  # Mostrara os archivos que no han sido track
 
 git clean --force #Borrar todos los archivos que no tienen  ningun commit.
 
+git stash save # Guarda los cambios qeno estn en commit temporalmene en una pila y deshace los cambios actuales..
+
+git diff stash@{0} #muestra lo qu esta almacendao temporalmente el tope de la pila
+
+git diff stash@{1} #muestra lo qu esta almacendao temporalmente una unidad despues del tope de la pila
+
+git stash pop # saca de la pila para el directorio de trabajo
+
+git stash clear ## Borra tda la pila que esta en el temporal
+
+
+
 
 
 
