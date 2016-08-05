@@ -2,5 +2,12 @@ git push --delete origin chapter-two  #Para borra un branch
 
 git reset --hard  # Devolvemos al ultimo  commit
 
+git ls-files    # Va a listar todos los archivos que tienen historia o estan tracked
+
+git ls-files --others  # Mostrara os archivos que no han sido track
+
+git clean --force #Borrar todos los archivos que no tienen  ningun commit.
+
+
 
 
