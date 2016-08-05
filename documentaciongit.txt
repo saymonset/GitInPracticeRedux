@@ -15,8 +15,12 @@ git diff stash@{0} #muestra lo qu esta almacendao temporalmente el tope de la pi
 git diff stash@{1} #muestra lo qu esta almacendao temporalmente una unidad despues del tope de la pila
 
 git stash pop # saca de la pila para el directorio de trabajo
-
+ 
 git stash clear ## Borra tda la pila que esta en el temporal
+
+git update-index --assume-unchanged 01-IntroducingGitInPractice.asciidoc # Coloca los archivos manuealmente que uno no los quiere      #ca,biar                      .. , si los separa por coma, seran varios archivos que uno no quiere cambiar
+
+git ls-files -v  #Lista los archivos que llevan trazas Historicas con (H)Mayusculas y los que no se llevara control de versiones llevara h (h) minuscula
 
 
 
