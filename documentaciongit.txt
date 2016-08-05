@@ -1,1 +1,6 @@
 git push --delete origin chapter-two  #Para borra un branch
+
+git reset --hard  # Devolvemos al ultimo  commit
+
+
+
