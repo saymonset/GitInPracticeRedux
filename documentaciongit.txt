@@ -25,3 +25,5 @@ git ls-files -v  #Lista los archivos que llevan trazas Historicas con (H)Mayuscu
  
  git merge simon #Hace un merge de simon a  master
  
+  git checkout -b chapter-spacing  # Me crea una rama y hace check out para ella
+
