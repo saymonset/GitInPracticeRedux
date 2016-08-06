@@ -18,14 +18,10 @@ git stash pop # saca de la pila para el directorio de trabajo
  
 git stash clear ## Borra tda la pila que esta en el temporal
 
-git update-index --assume-unchanged 01-IntroducingGitInPractice.asciidoc # Coloca los archivos manuealmente que uno no los quiere      #ca,biar                      .. , si los separa por coma, seran varios archivos que uno no quiere cambiar
+git update-index --assume-unchanged 01-IntroducingGitInPractice.asciidoc # Coloca los archivos manuealmente que uno NO los quiere      #ca,biar                      .. , si los separa por coma, seran varios archivos que uno no quiere cambiar
 
 git ls-files -v  #Lista los archivos que llevan trazas Historicas con (H)Mayusculas y los que no se llevara control de versiones llevara h (h) minuscula
 
- git merge master #Hace un merge de simon a  master
-
-
-
-
-
-
+ 
+ git merge simon #Hace un merge de simon a  master
+ 
