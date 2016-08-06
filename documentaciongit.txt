@@ -49,6 +49,15 @@ git log -3 --reverse #oldest commit first
 git merge branchname  #where branchname is the name of the branch you wish to
 merge into the current branch.
 
+git branch simon  #Crea la rama simon
+
+git checkout simon   #Se cambia de rama
+
+git push --set-upstream origin simon  #Subir la rama al remoto
+
+
+
+
 
 
 
