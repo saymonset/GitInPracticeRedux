@@ -18,9 +18,41 @@ git stash pop # saca de la pila para el directorio de trabajo
  
 git stash clear ## Borra tda la pila que esta en el temporal
 
-git update-index --assume-unchanged 01-IntroducingGitInPractice.asciidoc # Coloca los archivos manuealmente que uno no los quiere      #ca,biar                      .. , si los separa por coma, seran varios archivos que uno no quiere cambiar
+git update-index --assume-unchanged 01-IntroducingGitInPractice.asciidoc # Coloca los archivos manuealmente que uno NO los quiere      #ca,biar                      .. , si los separa por coma, seran varios archivos que uno no quiere cambiar
 
 git ls-files -v  #Lista los archivos que llevan trazas Historicas con (H)Mayusculas y los que no se llevara control de versiones llevara h (h) minuscula
+
+ git update-index --no-assume-unchanged simon.txt # Coloca los archivos manuealmente que uno   los quiere      #cambiar                      .. , si los separa por coma, seran varios archivos que uno no quiere cambiar
+
+ git config --global user.name "Mike McQuaid"
+
+ git config --global user.email mike@mikemcquaid.com
+
+ git config --global user.email
+
+ git log --author "Mike McQuaid" --after "Nov 10 2013" --grep 'file\.' #Filtrapoumero de commits mostrados por pantallasr autor
+
+ gir show #shows el ultimo commit y detalles de ese commit 
+
+git log -3  #Numero de commit mostrados por pantalla
+git merge branchname  #
+
+
+git log -3 --reverse #oldest commit first
+
+ git shortlog  #Muestra resumen de todos los commmits y agrupados por usuarios
+
+ git log --oneline --graph --decorate
+
+ git blame --date=short simon.txt  #Describe linea por linea las modificaciones y quien lo hizo . Showing who last changed each line of #a file
+
+git merge branchname  #where branchname is the name of the branch you wish to
+merge into the current branch.
+
+
+
+
+  
 
 
 

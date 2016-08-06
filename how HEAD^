@@ -1,0 +1,54 @@
+[33mcommit 3d3aa64d6dffe2f4f92a80c94e73fd73e307cedb[m
+Author: Your Name <you@example.com>
+Date:   Fri Aug 5 12:50:22 2016 -0430
+
+    prueba repositorio symonset
+
+[1mdiff --git a/desaperece.txt b/desaperece.txt[m
+[1mindex f69bd69..ffbab52 100644[m
+[1m--- a/desaperece.txt[m
+[1m+++ b/desaperece.txt[m
+[36m@@ -5,4 +5,7 @@[m [maaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa[m
+ rammmaaa dos[m
+ perfecto.........[m
+ Brancjhas nuevosss[m
+[31m-HOLA NUEVO MUNDO HGITddddddddddddddddddddd[m
+\ No newline at end of file[m
+[32m+[m[32mHOLA NUEVO MUNDO HGITddddddddddddddddddddd[m
+[32m+[m
+[32m+[m
+[32m+[m[32mdavid------z-----velasquez---<[m
+[1mdiff --git a/desaperece.txt~ b/desaperece.txt~[m
+[1mnew file mode 100644[m
+[1mindex 0000000..f69bd69[m
+[1m--- /dev/null[m
+[1m+++ b/desaperece.txt~[m
+[36m@@ -0,0 +1,8 @@[m
+[32m+[m[32mhola mundillo[m
+[32m+[m
+[32m+[m[32mgit remote add upstream https://github.com/saymonset/ORIGINAL_REPOSITORY.git[m
+[32m+[m[32maaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa[m
+[32m+[m[32mrammmaaa dos[m
+[32m+[m[32mperfecto.........[m
+[32m+[m[32mBrancjhas nuevosss[m
+[32m+[m[32mHOLA NUEVO MUNDO HGITddddddddddddddddddddd[m
+\ No newline at end of file[m
+[1mdiff --git a/nina.tmp b/nina.tmp[m
+[1mindex e9884f2..3325b8e 100644[m
+[1m--- a/nina.tmp[m
+[1m+++ b/nina.tmp[m
+[36m@@ -1 +1,3 @@[m
+[31m-jajajja NINA[m
+\ No newline at end of file[m
+[32m+[m[32mjajajja NINA[m
+[32m+[m
+[32m+[m[32mnina no me gusta[m
+[1mdiff --git a/nina.tmp~ b/nina.tmp~[m
+[1mnew file mode 100644[m
+[1mindex 0000000..3325b8e[m
+[1m--- /dev/null[m
+[1m+++ b/nina.tmp~[m
+[36m@@ -0,0 +1,3 @@[m
+[32m+[m[32mjajajja NINA[m
+[32m+[m
+[32m+[m[32mnina no me gusta[m
