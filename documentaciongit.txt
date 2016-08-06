@@ -22,6 +22,8 @@ git update-index --assume-unchanged 01-IntroducingGitInPractice.asciidoc # Coloc
 
 git ls-files -v  #Lista los archivos que llevan trazas Historicas con (H)Mayusculas y los que no se llevara control de versiones llevara h (h) minuscula
 
+ git merge master #Hace un merge de simon a  master
+
 
 
 
